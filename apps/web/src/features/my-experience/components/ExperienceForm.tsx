@@ -3,14 +3,14 @@ import { NumberInput } from '@mantine/core'
 import { TimeInput } from '@mantine/dates'
 import { Controller, useForm } from 'react-hook-form'
 
-import type { CreateExperienceInputType } from '~/features/experience/types'
-import { createExperienceSchema } from '~/features/experience/types'
+import type { CreateExperienceInputType } from '~/features/my-experience/types'
+import { createExperienceSchema } from '~/features/my-experience/types'
 import { FlexBox } from '~/components/Base/FlexBox'
 import { BasicButton } from '~/components/Buttons/BasicButton'
 import { useToast } from '~/hooks/useToast'
 import { errorMessage } from '~/utils/errorMessage'
 import { TitleText } from '~/components/Typography/TitleText'
-import { useCreateExperienceMutations } from '~/features/experience/hooks/useCreateExperienceMutations'
+import { useCreateExperienceMutations } from '~/features/my-experience/hooks/useCreateExperienceMutations'
 
 export const ExperienceForm = (): React.ReactNode => {
   const { showErrorToast, showSuccessToast } = useToast()

@@ -1,4 +1,4 @@
-import type { CreateExperienceInputType } from '~/features/experience/types'
+import type { CreateExperienceInputType } from '~/features/my-experience/types'
 import { timeStringToMinutes } from '~/utils/date'
 import { createExperienceOperation } from '~/infrastructure/firestore/ExperienceOperations'
 import { useFirebaseAuthContext } from '~/providers/FirebaseAuthProvider'
