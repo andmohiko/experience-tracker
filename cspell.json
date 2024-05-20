@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+  "language": "en",
+  "words": [
+    "autosize",
+    "dropzone",
+    "engexp",
+    "firebase",
+    "firestore",
+    "flatMap",
+    "hookform",
+    "mantine",
+    "millis",
+    "Navigations",
+    "nextjs",
+    "recaptcha",
+    "svgs",
+    "vercel",
+    "webp"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    ".next",
+    "public",
+    "*.js",
+    "*.log",
+    ".turbo",
+    ".git"
+  ]
+}
