@@ -2,7 +2,7 @@ import { ExperienceRingProgress } from './ExperienceRingProgress'
 
 import { FlexBox } from '~/components/Base/FlexBox'
 import { TitleText } from '~/components/Typography/TitleText'
-import { useExperiences } from '~/features/experience/hooks/useExperiences'
+import { useExperiences } from '~/features/my-experience/hooks/useExperiences'
 
 const targetHours = 100
 const targetPoints = 2 * 100

@@ -1,8 +1,8 @@
-import { ExperienceForm } from '~/features/experience/components/ExperienceForm'
+import { ExperienceForm } from '~/features/my-experience/components/ExperienceForm'
 import { FlexBox } from '~/components/Base/FlexBox'
 import { SimpleLayout } from '~/components/Layouts/SimpleLayout'
 import { TitleText } from '~/components/Typography/TitleText'
-import { ExperienceTracks } from '~/features/experience/components/ExperienceTracks'
+import { ExperienceTracks } from '~/features/my-experience/components/ExperienceTracks'
 
 export const ExperienceContainer = (): React.ReactNode => {
   return (

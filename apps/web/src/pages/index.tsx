@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 
-import { ExperienceContainer } from '~/features/experience/components/ExperienceContainer'
+import { ExperienceContainer } from '~/features/my-experience/components/ExperienceContainer'
 
 const IndexPage: NextPage = () => {
   return <ExperienceContainer />
